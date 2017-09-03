@@ -16,13 +16,15 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-footer {
+#footer {
     background-color: #adacb2;
 }
 
 @media (max-width: 767px) { 
-
-    footer div {
-        padding-top: 1rem;
+    #footer {
+        padding-bottom: 1rem;
+    }
+    #footer div {
+        margin-top: 1rem;
     }
 }
