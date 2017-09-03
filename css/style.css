@@ -1,0 +1,28 @@
+body {
+    background-color: #f1f1ed;
+    position: relative;
+}
+
+.navbar {
+    height: 4rem;
+}
+
+.img-fluid {
+    margin: 0 auto;
+}
+
+.intro {
+    color: #adacb2;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #adacb2;
+}
+
+@media (max-width: 767px) { 
+
+    footer div {
+        padding-top: 1rem;
+    }
+}
