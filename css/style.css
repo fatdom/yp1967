@@ -28,3 +28,17 @@ body {
         margin-top: 1rem;
     }
 }
+
+
+@media (min-width: 992px) {
+    #img-top {
+        height: 5rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #img-top {
+        height: 4rem;
+    }
+}
+
